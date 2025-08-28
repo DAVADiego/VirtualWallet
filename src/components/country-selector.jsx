@@ -4,9 +4,9 @@ import { useState } from "react"
 import { Check, ChevronsUpDown } from "lucide-react"
 
 import { cn } from "../lib/utils"
-import { Button } from "@/ui/button"
-import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/ui/command"
-import { Popover, PopoverContent, PopoverTrigger } from "@/ui/popover"
+import { Button } from "./ui/button"
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "./ui/command"
+import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover"
 
 const countries = [
   { value: "pe", label: "Perú", flag: "🇵🇪", currency: "PEN" },
